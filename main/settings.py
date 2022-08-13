@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'memorydiary',
     'tailwind',
     'theme',
+    'django_browser_reload',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

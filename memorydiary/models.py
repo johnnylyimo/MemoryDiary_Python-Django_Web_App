@@ -6,3 +6,6 @@ from helpers.models import TrackingModel
 class Memory(TrackingModel):
     title = models.CharField(max_length=250)
     content = models.TextField()
+
+    def __str__(self):
+        return self.title if self.title != "" else self.content[0:len(self.content)]

@@ -1,4 +1,4 @@
-{% load tailwind_tags %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock %} </title>
-    {% tailwind_css %}
+    
 </head>
-<body class="bg-[#E1BEE7]">
+<body>
     <header>
         {% include "components/navbar.html"  %}
     </header>
-    <main class="w-full h-full">
+    <main>
         {%  block contents %}
         {%  endblock  %}
     </main>

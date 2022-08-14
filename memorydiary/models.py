@@ -5,3 +5,4 @@ from helpers.models import TrackingModel
 
 class Memory(TrackingModel):
     title = models.CharField(max_length=250)
+    content = models.TextField()

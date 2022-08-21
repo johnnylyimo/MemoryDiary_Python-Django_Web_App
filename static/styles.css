@@ -19,5 +19,6 @@ section div:first-child{
 #btnSave{
     background-color: var(--btnBackground);
     color:white;
+    font-size: 24px;
 
 }

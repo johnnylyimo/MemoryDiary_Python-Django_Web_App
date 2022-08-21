@@ -1,4 +1,5 @@
 :root{
+    --btnBackground: #b266b2;
 }
 
 body{
@@ -12,3 +13,4 @@ nav h1 a{
 section div:first-child{
     background-color: #ce93d8;
 }
+

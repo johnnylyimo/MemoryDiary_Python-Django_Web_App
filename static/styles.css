@@ -18,5 +18,6 @@ section div:first-child{
 /* form button */
 #btnSave{
     background-color: var(--btnBackground);
+    color:white;
 
 }

@@ -14,9 +14,9 @@
             <h5 class="mt-4" >
                 Anytime something positive happens, make a note of it and come back to it later
             </h5>
-            <form class="mt-5">
+            <form action="{% url 'home' %}"  class="mt-5">
                 <label for="newMemory" class="form-label">Write new memory below</label>
-                <textarea class="form-control" rows="4"></textarea>
+                <textarea name="memory" class="form-control" rows="4"></textarea>
                 <button id="btnSave" type="submit" class="btn btn-sm mt-5 px-3 py-2 ">
                     Save
                 </button>
@@ -27,7 +27,4 @@
             Highlights
         </div>
     </section>
-
- 
-
 {%  endblock   %}

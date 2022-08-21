@@ -20,5 +20,6 @@ section div:first-child{
     background-color: var(--btnBackground);
     color:white;
     font-size: 24px;
+    border-radius: 10px;
 
 }

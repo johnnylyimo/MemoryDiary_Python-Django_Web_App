@@ -11,7 +11,7 @@ nav h1 a{
 }
 
 nav h1 a:hover{
- 
+    color: #800080;
 }
 
 section div:first-child{
